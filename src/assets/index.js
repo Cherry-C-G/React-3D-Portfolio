@@ -36,7 +36,12 @@ import beaconFire from"./company/beaconFire.png";
 import beaconFire1 from"./company/beaconFire1.jpg";
 import jagoLink from "./company/jagoLink.png";
 import ASP from"./company/ASP.jpg";
-import angular from"./company/angular.png"
+import angular from"./company/angular.png";
+import QuizApp from"./QuizApp.png";
+import HR_Github from"./HR-Github.png";
+import e_bookstore from"./e-bookstore.png";
+import gym_management from"./gym_management.png";
+import gymNET from"./gymNET.png";
 
 
 export {
@@ -75,5 +80,10 @@ export {
   beaconFire1,
   jagoLink,
   ASP,
-  angular
+  angular,
+  QuizApp,
+  HR_Github,
+  e_bookstore,
+  gym_management,
+  gymNET,
 };

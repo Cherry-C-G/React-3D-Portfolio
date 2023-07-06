@@ -1,12 +1,12 @@
 {
-  "homepage":"http://Cherry-C-G.github.io/React-3D-Portfolio",
+  "homepage": "http://Cherry-C-G.github.io/React-3D-Portfolio",
   "name": "3d-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@react-three/drei": "^9.66.3",
-    "@react-three/fiber": "^8.13.0",
+    "@react-three/drei": "^9.78.1",
+    "@react-three/fiber": "^8.13.4",
     "framer-motion": "^10.12.7",
     "maath": "^0.5.3",
     "prop-types": "^15.8.1",
@@ -25,7 +25,7 @@
     "react-router-dom": "^6.11.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.152.2"
+    "three": "^0.154.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

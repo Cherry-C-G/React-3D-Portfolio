@@ -19,18 +19,21 @@ import {
     //  starbucks,
     // tesla,
     // shopify,
-    carrent,
-    jobit,
-    tripguide,
+    //carrent,
+    // jobit,
+    // tripguide,
     threejs,
-    // Antra,
     Antra1,
     jagoLink,
-    // beaconFire,
     beaconFire1,
     ASP,
     angular,
-    celia_logo
+    celia_logo,
+    HR_Github,
+    QuizApp,
+    e_bookstore,
+    //gym_management,
+    gymNET,
   } from "../assets";
   
   export const navLinks = [
@@ -306,65 +309,123 @@ import {
     {
       name: "HR System Web Application",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows HR manages employees, onboarding, housing, and other HR-related tasks.",
       tags: [
         {
-          name: "react",
+          name: "ASP .NET",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Azure SQL Server Database",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Azure Service Bus",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Azure Blob Storage",
+          color: "green-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "REST API",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: HR_Github,
+      source_code_link: "https://github.com/Cherry-C-G/HR-Managemnet-System.git",
     },
     {
       name: "Quiz App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that allows users to take quizzes and view their scores. Admin may add, delete, and update quizzes and answers.",
       tags: [
         {
-          name: "react",
+          name: "ASP .NET",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "SQL Server Database",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Entity Framework",
           color: "pink-text-gradient",
         },
+        {
+          name: "MVC",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: QuizApp,
+      source_code_link: "https://github.com/Cherry-C-G/QuizApp2.git",
     },
     {
-      name: "E-Commercial Website",
+      name: "E-Bookstore Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Customers may brows books on the website and purchase them. Admins may add, delete, and update books on the website.",
       tags: [
         {
-          name: "nextjs",
+          name: "MVC",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "SQL Server Database",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "ASP.NET",
           color: "pink-text-gradient",
         },
+        {
+          name: "Fluent API",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Entity Framework",
+          color: "green-text-gradient",
+        },
+        
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: e_bookstore,
+      source_code_link: "https://github.com/Cherry-C-G/E-Bookstore.git",
+    },
+    {
+      name: "Gym Management System",
+      description:
+        "Customers may brows books on the website and purchase them. Admins may add, delete, and update books on the website.",
+      tags: [
+        {
+          name: "MVC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SQL Server Database",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ASP .NET",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Fluent API",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Entity Framework",
+          color: "green-text-gradient",
+        },
+      ],
+      image: gymNET,
+      source_code_link: "https://github.com/Cherry-C-G/Gym-Managemnet-.NET7.git",
     },
   ];
   
